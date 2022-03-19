@@ -1,2 +1,2 @@
-export type { ICountryData } from "./dataTypes";
-export { GET_COUNTRIES } from "./GetCountries.query";
+export type { ICountryData, ICountry } from "./dataTypes";
+export { GET_COUNTRIES } from "./getCountries.query";

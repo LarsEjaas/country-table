@@ -1,1 +1,1 @@
-export { apolloClient } from "./Apollo";
+export { apolloClient } from "./apollo";

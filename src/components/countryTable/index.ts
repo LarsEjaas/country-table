@@ -1,1 +1,1 @@
-export { CountryTable } from "./CountryTable";
+export { CountryTable } from "./countryTable";

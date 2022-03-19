@@ -5,7 +5,7 @@ import {
   DefaultOptions,
 } from "@apollo/client";
 
-const ENDPOINT = import.meta.env.VITE_GRAPHQL_ENDPOINT;
+const ENDPOINT: string = process.env.REACT_APP_GRAPHQL_ENDPOINT || "";
 
 const defaultOptions: DefaultOptions = {
   watchQuery: {

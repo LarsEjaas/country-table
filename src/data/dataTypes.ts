@@ -2,24 +2,24 @@ export interface ICountryData {
   countries: ICountry[];
 }
 
-interface ICountry {
+export interface ICountry {
   code: string;
   name: string;
-  native: string;
-  phone: string;
+  native?: string;
+  phone?: string;
   continent: IContinent;
   capital?: string;
   currency?: string;
-  languages: ILanguage[];
-  emoji: string;
+  languages?: ILanguage[];
+  emoji?: string;
   emojiU: string;
-  states: IState[];
+  states?: IState[];
 }
 
 interface IContinent {
-  code: string;
+  code?: string;
   name: string;
-  countries: ICountry[];
+  countries?: ICountry[];
 }
 
 interface ILanguage {

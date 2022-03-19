@@ -7,5 +7,8 @@ export const COUNTRY_DATA = gql`
     emojiU
     code
     name
+    continent {
+      name
+    }
   }
 `;

@@ -1,1 +1,1 @@
-export { TableWrapper } from "./TableWrapper";
+export { TableWrapper } from "./tableWrapper";
